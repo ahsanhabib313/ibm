@@ -1,0 +1,229 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+// Variables
+@import "variables";
+
+// Bootstrap
+// @import '~bootstrap/scss/bootstrap';
+
+$primary-color: #f1592a;
+.fa-bars{
+    color:$primary-color;
+}
+
+.navbar-toggler{
+    padding: 0px !important;
+    font-size: 1em !important;
+    border:none !important;
+    font-weight: 700;
+}
+.navbar-nav .nav-item .nav-link::before {
+    content: "" !important;
+}
+
+.navbar-nav .nav-item .nav-caret::before {
+    content: "\f078" !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+    margin: 0px 18px !important;
+    padding: 20px 0 !important;
+    font-size: 18px !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: $primary-color;
+}
+
+
+
+.topbar-social-icons {
+    a i {
+        // font-size: 20px;
+    }
+    a:hover {
+        // color: $primary-color;
+    }
+
+    .ibm-login-topbar-btn {
+        border-radius: 30px;
+    }
+
+    .ibm-btn{
+        background: #b33706;
+    }
+}
+
+.second-navbar {
+    .nav-item {
+        .nav-link {
+            color: #282c47;
+            font-weight: 600;
+            word-spacing: 0.3em;
+        }
+
+        .nav-link:hover {
+            color: $primary-color;
+            border-bottom: 2px solid $primary-color;
+        }
+    }
+
+    .dropdown-menu {
+        left: auto !important;
+        right: auto !important;
+        border-radius: 0px !important;
+        border-bottom: 5px solid $primary-color;
+
+        .dropdown-item:hover {
+            color: $primary-color;
+        }
+    }
+}
+
+.topbar {
+    background-color: #f1592a;
+    color: #fff;
+    .topbar-social-icons {
+        @media screen and (min-width:768px) {
+            a i {
+                font-size: 24px;
+            }   
+        }
+        a:hover {
+            // color: $primary-color;
+        }
+
+        .ibm-login-topbar-btn {
+            border-radius: 30px;
+        }
+    }
+}
+
+.third-navbar {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    background-color: #131a36 !important;
+    word-spacing: 0.3em;
+
+    .nav-item {
+        .nav-link {
+            // font-family: "Panton";
+            font-weight: 700;
+            font-size: 18px;
+            color: #fff;
+        }
+
+        .nav-link:hover {
+            color: $primary-color;
+            
+        }
+
+        .dropdown-menu {
+            border-radius: 0px !important;
+            background-color: #131a36 !important;
+            left: auto !important;
+            right: auto !important;
+
+            .dropdown-item {
+                color: #fff;
+            }
+
+            .dropdown-item:hover {
+                color: $primary-color;
+            }
+        }
+
+        .dropdown-menu:hover{
+            // border-top: 3px solid $primary-color;
+        }
+    }
+}
+
+@media screen and (min-width:768px) {
+  .ibm-course-height{
+      height:456px;
+  }  
+}
+// slider style
+$slider-color-1: white;
+$slider-color-2: #4db3b3;
+$slider-color-3: #e3dfd7;
+$slider-color-4: #f2c249;
+.slider-content {
+    h5 {
+        color: $slider-color-1;
+        opacity: white;
+        font-size: 40px;
+        // font-family: "Panton";
+        // font-style: italic;
+        font-weight: 600;
+    }
+    p {
+        color: white;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 600;
+        // margin-top: 18px;
+        opacity: 75%;
+        word-wrap: break-word !important;
+    }
+    button {
+        background-color: #e03c0a;
+
+        background-color: #e03c0a;
+        font-size: 20px;
+        color: #f53f08;
+        box-shadow: 0px 1px 5px 2px #942503;
+        font-weight: 500;
+        color: #ffff !important;
+    }
+}
+
+.slider-mt {
+    margin-bottom: 15%;
+}
+
+// .border-right {
+//     background-position: right bottom;
+//     background-color: #e3dfd7;
+// }
+
+// .border-slider {
+//     border-bottom: 10px solid #e09bac !important;
+// }
+// .border-slider {
+//     border-right: 4px solid #fff200;
+//     border-bottom: 4px solid #fff200;
+//     border-bottom-right-radius: 30px;
+//     // height: 530px;
+//     display: flex;
+//     justify-content: flex-end;
+//     z-index: 10;
+// }
+// slider
+.bg-image {
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-text {
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+

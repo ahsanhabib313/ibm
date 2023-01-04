@@ -1,0 +1,62 @@
+            <div class="row justify-content-center align-item-left">
+                <div class="col-lg-6 card">
+                <div class="text-center  card-body">
+                    <h2 class="mb-30">Sign Up</h2>
+                     <p class="mb-20">
+                            Already have an account? <router-link to="/signin" class="text-decoration-underline">Sign In</router-link>
+                        </p>
+                    <form  @submit.prevent="signUp()" id="form" class="row gx-3 register text-left">
+                        <div class="col-lg-12 mb-30">
+                            <p class="mb-20"><strong class="theme-color">Sign Up as a</strong> &nbsp;<span class="required">*</span></p>
+                            <button type="button" ref="student_button" @click="userTypeSelection(1)" class="btn btn-lg sign-up-btn btn-radius btn-default theme-border">Student</button>&nbsp;&nbsp;
+                            <button type="button" ref="agent_button" @click="userTypeSelection(2)" class="btn btn-lg sign-up-btn btn-radius btn-default theme-border">Agent</button>
+                            <!-- <v-select :options="userTypes" :reduce="userType => userType.user_type" label="name" v-model="user_type" placeholder="Select user type"></v-select>
+                            <input type="hidden" name="user_type" v-model="user_type"> -->
+
+                            <input type="radio" style="display:none;" name="user_type" value="3" ref="user_type_student">
+                            <input type="radio" style="display:none;" name="user_type" value="2" ref="user_type_agent">
+                        </div>
+                        <div class="col-lg-6 mb-30">
+                            <input type="text" class="form-control" name="name"  placeholder="Name">
+                        </div>
+                        <div class="col-lg-6 mb-30">
+                            <input type="email" class="form-control" name="email" value="" placeholder="Your Email">
+                        </div>
+                        <div class="col-lg-6 mb-30">
+                            <input type="number" class="form-control" name="phone" value="" placeholder="Your Phone">
+                        </div>
+                        <div class="col-lg-6 mb-30">
+                            <input type="password" class="form-control" name="password" placeholder="******">
+                        </div>
+                        <div class="col-lg-6 mb-30" v-if="isUser == 'student'">
+                            <v-select :options="courses" :reduce="course => course.id" label="title" v-model="signUpForm.course_id" placeholder="Select Course"></v-select>
+                            <input type="hidden" name="course_id" v-model="signUpForm.course_id">
+                        </div>
+                        <div class="col-lg-6 mb-30" v-if="isUser == 'student'">
+                            <v-select :options="courseEnrolls" :reduce="courseEnroll => courseEnroll.course_enroll_type" label="name" v-model="signUpForm.course_enroll_type" placeholder="Select agent type"></v-select>
+                            <input type="hidden" name="course_enroll_type" v-model="signUpForm.course_enroll_type">
+                        </div>
+                        <div class="col-lg-6 mb-30" v-if="isUser == 'student'">
+                            <v-select :options="certifies" :reduce="certify => certify.certified_by" label="name" v-model="signUpForm.certified_by" placeholder="Select certified by"></v-select>
+                            <input type="hidden" name="certified_by" v-model="signUpForm.certified_by">
+                        </div>
+                        <div class="col-lg-6 mb-30">
+                            <v-select :options="stateOfAustralias" :reduce="stateOfAustralia => stateOfAustralia.name" label="name" v-model="signUpForm.country_state" placeholder="Select State"></v-select>
+                            <input type="hidden" name="country_state" v-model="signUpForm.country_state">
+                        </div>
+                        <div class="col-lg-6 mb-30">
+                            <input type="text" name="address"  class="form-control" placeholder="Address">
+                        </div>
+                        <div class="col-lg-6 mb-30" v-if="isUser == 'agent'">
+                           <v-select :options="agentTypes" :reduce="agentType => agentType.agent_type" label="name" v-model="signUpForm.agent_type"  placeholder="Select agent type"></v-select>
+                            <input type="hidden" name="agent_type" v-model="signUpForm.agent_type">
+                        </div>
+                        <div class="col-lg-12 mb-30">
+                            
+                            <button style="width:100%;border:none;" type="submit" v-if="is_user_type_selected" class="theme_btn" name="register" value="Register">Register</button>
+                            <button style="width:100%;border:none;" type="button" v-else class="theme_btn disabled" name="register" value="Register" disabled>Register</button>
+                        </div>
+                    </form>
+                </div>
+                </div>
+            </div>

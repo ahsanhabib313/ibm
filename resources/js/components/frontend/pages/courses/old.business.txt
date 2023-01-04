@@ -1,0 +1,361 @@
+  <section
+    class="about-us-area pt-150 pb-120 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
+  >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <!-- <img class="img-fluid" :src="image_url+'/frontend/assets/img/course/diploma1.jpg'" alt=""> -->
+          <img
+            :src="image_url + '/uploads/course/' + course.thumbnail"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-md-6">
+          <h3 class="mb-20">DIPLOMA OF BUSINESS ADMINISTRATION</h3>
+          <p class="mb-10">
+            <strong>Qualification Code and Title :</strong> BSB50415 Diploma of
+            Business Administration
+          </p>
+
+          <p class="mb-10"><strong>CRICOS Course Code :</strong> 0100453</p>
+
+          <p class="mb-10">
+            <strong>Delivery Location :</strong> Building D, 60 Belfast street,
+            Broadmeadows, VIC, 3047
+          </p>
+
+          <p class="mb-10"><strong>Mode of Delivery :</strong> Face to Face</p>
+
+          <p class="mb-10"><strong>Course Overview</strong></p>
+          <p class="p-justify">
+            This qualification would apply to individuals with various job
+            titles including administration managers, general office managers
+            and office managers. Individuals in these roles may possess a sound
+            theoretical knowledge base and use a range of specialised, technical
+            or managerial competencies to plan, carry out and evaluate their own
+            work and/or the work of a team.
+          </p>
+        </div>
+      </div>
+      <div class="row mt-30" style="background: #f1f1f1; padding: 50px">
+        <div class="col-md-12">
+          <div class="text-center">
+            <h3 class="theme-text-hover mt-10 mb-10">
+              COURSE ENTRY & <span class="theme-color">VISA REQUIREMENT</span>
+            </h3>
+            <p class="mb-10 mb-30 text-center pl-20 pr-20">
+              All international students must be 18 years of age at the time of
+              commencement.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-2 mt-30">
+              <i class="fa fa-language theme-color f-37"></i>
+            </div>
+            <div class="col-md-10">
+              <h3 class="theme-text-hover mt-10 mb-10">
+                English Language Requirement
+              </h3>
+              <p class="mt-3 mb-10 p-justify">
+                ILETS 5.5 (Academic or general) or equivalent internationally
+                recongnised test result in line with DIBP regulation. or
+                Completed secondary studies equivalent to an Australian Year 12
+                qualification form Level 1 countries as identified by DIBP.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-2 mt-30">
+              <i class="fa fa-university theme-color f-37"></i>
+            </div>
+            <div class="col-md-10">
+              <h3 class="theme-text-hover mt-10 mb-10">Academic Requirement</h3>
+              <p class="mt-3 mb-10 p-justify">
+                Academic Requirements- Students must have satisfactorily
+                completed a minimum of year 11 or equivalent.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-2 mt-30">
+              <i class="fa fa-language theme-color f-37"></i>
+            </div>
+            <div class="col-md-10">
+              <h3 class="theme-text-hover mt-10 mb-10">LLN</h3>
+              <p class="mt-3 mb-10 p-justify">
+                IBM (Victoria) will also administer Language, Literacy and
+                Numeracy (LLN) Evaluation test to all students to ensure that
+                they have the ability to complete the course. This test will
+                occur prior to the course commencement and will be assessed by
+                authorised IBM (Victoria) delegate.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-2 mt-30">
+              <i class="fa fa-user theme-color f-37"></i>
+            </div>
+            <div class="col-md-10">
+              <h3 class="theme-text-hover mt-10 mb-10">
+                Overseas Student Health Cover (OSHC)
+              </h3>
+              <p class="mt-3 mb-10 p-justify">
+                All international students must have Overseas Student Health
+                Cover (OSHC) for the entire duration of their stay in Australia.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="text-center mt-50 mb-50">PATHWAYS</h3>
+        </div>
+        <div class="col-md-3">
+          <img
+            class="img-fluid"
+            :src="image_url + '/frontend/assets/img/course/diploma1.jpg'"
+            alt=""
+          />
+        </div>
+        <div class="col-md-3">
+          <h4 class="theme-color">Educational Pathways</h4>
+          <p class="mt-10 p-justify">
+            On completion of this qualification, students may undertake
+            qualifications at Advanced Diploma level or above in Business
+            training package.
+          </p>
+        </div>
+        <div class="col-md-3">
+          <img
+            class="img-fluid"
+            :src="image_url + '/frontend/assets/img/course/diploma2.jpg'"
+            alt=""
+          />
+        </div>
+        <div class="col-md-3">
+          <h4 class="theme-color">Employment Pathways</h4>
+          <p class="mt-10 p-justify">
+            Participants completing BSB50415 Diploma of Business Administration
+            may enter into or continue current roles including:
+          </p>
+
+          <p class="mt-10"><strong>Account Supervisor</strong></p>
+
+          <p class="mt-10"><strong>Office Manager</strong></p>
+
+          <p class="mt-10"><strong>Executive Assistant</strong></p>
+
+          <p class="mt-10"><strong>Administration Coordinator</strong></p>
+
+          <p class="mt-10"><strong>Team Leader</strong></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="text-center mt-100 mb-100">
+            COURSES <span class="theme-color">DETAILS</span>
+          </h3>
+        </div>
+        <div class="col-md-4 p-100">
+          <div class="text-center">
+            <img
+              :src="image_url + '/frontend/assets/img/course/diploma1.jpg'"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <p class="mt-4 mb-10"><strong>RPL / Credit Transfer</strong></p>
+          <p class="p-justify">
+            Students with prior learning and work experience can apply for RPL.
+            Students who have completed corresponding units of competency and/or
+            units contained within the packaging rules can apply for Credit
+            Transfer. RPL evidence must include some of the following:
+          </p>
+
+          <p class="mt-10 mb-10">Work experience</p>
+
+          <p class="mt-10 mb-10">Life experience</p>
+
+          <p class="mt-10 mb-10">Previous study</p>
+
+          <p class="mt-10 mb-10">Professional development programs</p>
+
+          <p class="mt-10 mb-10">
+            If you wish to apply for RPL or Credit Transfer, please notify
+            Institute of Business and Management (Victoria) at the time of
+            enrolment
+          </p>
+        </div>
+        <div class="col-md-4 p-100">
+          <div class="text-center">
+            <img
+              :src="image_url + '/frontend/assets/img/course/diploma2.jpg'"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <p class="mt-4 mb-10"><strong>Assessment Method</strong></p>
+          <p class="p-justify">
+            Assessment methods used for this qualification will provide a range
+            of ways for individuals to demonstrate that they have met the
+            required outcomes including:
+          </p>
+          <p class="mt-4 mb-10">Written Questions and Answers</p>
+
+          <p class="mt-4 mb-10">Projects</p>
+
+          <p class="mt-4 mb-10">Case Studies</p>
+
+          <p class="mt-4 mb-10">Observations</p>
+
+          <p class="mt-4 mb-10 p-justify">
+            At the beginning of each unit, trainers will outline the assessment
+            tasks that must be completed.
+          </p>
+        </div>
+        <div class="col-md-4 p-100">
+          <div class="text-center">
+            <img
+              :src="image_url + '/frontend/assets/img/course/diploma3.jpg'"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <p class="mt-4 mb-10 p-justify">
+            <strong
+              >Important Information – Student Handbook, Policies and
+              Procedures, Fees and Charges</strong
+            >
+          </p>
+          <p class="p-justify mt-4 mb-10">
+            Information about our training and assessment, policies and
+            procedures are included in student handbook and should be read by
+            you, prior to enrolment, which is available on institute’s website.
+            These documents contain important information about your training
+            course, fees and charges including our refund policy.
+          </p>
+        </div>
+        <div class="col-md-4 mt-100">
+          <div class="text-center">
+            <img
+              :src="image_url + '/frontend/assets/img/course/diploma4.jpg'"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <p class="mt-4 mb-10">
+            <strong>Student</strong>
+          </p>
+          <p class="p-justify">
+            This course will be delivered over 64 weeks consisting of 60 weeks
+            of face-to-face study over 5 terms (12 weeks each) and 4 weeks of
+            term break.
+          </p>
+        </div>
+        <div class="col-md-4 mt-100">
+          <div class="text-center">
+            <img
+              :src="image_url + '/frontend/assets/img/course/diploma5.jpg'"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <p class="mt-4 mb-10">
+            <strong>Student Support</strong>
+          </p>
+
+          <p class="p-justify mt-10 mb-10">
+            Student needs are declared by the applicant at the time of
+            enrolment: the application form allows the applicant to self-declare
+            where they have learning disabilities.
+          </p>
+          <p class="p-justify mt-10 mb-10">
+            Every student is interviewed either face-to-face or over the
+            telephone to attempt to establish the applicant skill and knowledge
+            levels, their current employment and how that relates to the course
+            content and interaction.
+          </p>
+          <p class="p-justify mt-10 mb-10">
+            Where language, literacy and numeracy are in question Institute of
+            Business and Management (Victoria) has a language, literacy and
+            numeracy (LLN) assessment they may undertake to confirm their level
+            of language, literacy and numeracy skills
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h3 class="text-center mt-100">
+            COURSE <span class="theme-color">STRUCTURE</span>
+          </h3>
+          <p class="mt-20 mb-30 p-justify">
+            The BSB50415 Diploma of Business Administration requires the
+            successful completion of eight (8) elective units. Electives for
+            this qualification have been chosen by Institute of Business and
+            Management (Victoria) to ensure that students achieve a broad range
+            of skills and knowledge in business administration.
+          </p>
+          <img
+            class="img-fluid"
+            :src="image_url + '/frontend/assets/img/course/diploma2-2.png'"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mt-100">
+          <h3 class="mb-30">
+            FEES <span class="theme-color">INFORMATION</span>
+          </h3>
+          <p class="mt-10 mb-10">
+            <i class="fa fa-check theme-color"></i>
+            <strong>Application Fee: $250</strong>
+          </p>
+
+          <p class="mt-10 mb-10">
+            <i class="fa fa-check theme-color"></i>
+            <strong>Tuition Fee: $7500</strong>
+          </p>
+
+          <p class="mt-10 mb-10">
+            <i class="fa fa-check theme-color"></i>
+            <strong>Material Fee: $250</strong>
+          </p>
+
+          <p class="mt-10 mb-10">
+            <i class="fa fa-check theme-color"></i>
+            <strong>Total Fees: $8000</strong>
+          </p>
+
+          <p class="mt-10 mb-10 p-justify">
+            <i class="fa fa-check theme-color"></i> Further fee / charges
+            information can be found in student handbook, or form IBM (Victoria)
+            administration office.
+          </p>
+
+          <p class="mt-10 mb-10 p-justify">
+            <i class="fa fa-check theme-color"></i> Tuition fees and other
+            compulsory costs (equipment, uniforms etc.) may change from year to
+            year. However, students continuing in their current qualification
+            will not incur any fee increases.
+          </p>
+
+          <p class="mt-10 mb-10 p-justify">
+            <i class="fa fa-check theme-color"></i> Material Fees includes but
+            not restricted to books, Tutorials and course documents.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>

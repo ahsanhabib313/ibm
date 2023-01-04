@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+    web:
+        image: cynax/local_php:7.4
+        ports:
+            - "15000:8000"
+        depends_on:
+            - db
+        volumes:
+            - ".:/app"
+        command: bash -c "php artisan serve --host=0.0.0.0"
+    db:
+        image: mysql:latest
+        environment:
+            MYSQL_ROOT_PASSWORD: "root"
+            MYSQL_DATABASE: "ibm"
+            MYSQL_PORT: "3306"
+        ports:
+            - "9038:3306"

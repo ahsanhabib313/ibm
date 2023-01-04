@@ -1,0 +1,46 @@
+.page-main-header .main-header-right svg line{
+    color:#f1592a !important;
+}
+
+.page-main-header .main-header-right .nav-right ul li svg{
+    color:#f1592a !important;
+}
+
+.customizer-links .nav-link .settings i{
+    color:#f1592a !important;
+}
+
+.customizer-links .nav-link .settings i:hover{
+    color:#f1592a !important;
+}
+
+
+.page-wrapper .page-body-wrapper .page-sidebar .sidebar-menu .sidebar-header svg{
+    color:#f1592a !important;
+}
+
+.text-primary{
+    color:#f1592a !important;
+}
+
+.btn-primary{
+    background-color:#f1592a !important;
+    border-color:#f1592a !important;
+}
+
+.fa{
+    /* color:#f1592a !important; */
+}
+
+.table td, .table th {
+    padding: 0.2em !important;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    font-size: 13px !important;
+    text-align: center;
+    vertical-align: middle;
+   
+}
+
+
+

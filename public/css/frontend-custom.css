@@ -1,0 +1,218 @@
+/* @media screen and (min-width:393px) and (max-width: 768px) {
+    .search__area{
+        background: none !important;
+    }
+    
+}
+
+@media screen and (min-width:768px) {
+    .sl-btn-1{
+        width:48% !important;
+    }
+    .sl-btn-2{
+        width: 23% !important;
+    }
+    
+}
+
+.slider-btn{
+    padding:18px 6px !important;
+    margin:2px !important;
+}
+
+.single-item .single-box{
+    height: 370px;
+}
+
+.p-justify{
+    text-align: justify;
+}
+
+.img-blog{
+    width:100% !important; 
+    height:300px !important;
+}
+
+.text-list li::before{
+    background-color: #F1592A !important;
+}
+
+.sub_btn{
+    background-color: #F1592A !important;
+}
+
+.theme-color{
+    color:#F1592A !important;
+}
+
+.theme-text-hover:hover{
+    color:#F1592A !important;
+}
+
+.theme-bg{
+    background-color: #F1592A !important;
+}
+
+.theme-border{
+    border:1px solid #F1592A;
+}
+
+.ibm-list-group-item.active{
+    background-color: #F1592A !important;
+    border-color: #F1592A !important;
+}
+
+.f-37{
+    font-size: 37px !important;
+}
+
+.what-box__icon::before{
+    left: 5px !important;
+    bottom: 34px !important;
+}
+
+.btn-radius{
+    border-radius: 50px !important;
+}
+
+.sign-up-btn{
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.btn-default{
+    color:#f1592a !important;
+    vertical-align: middle !important;
+}
+
+.ibm-m-0{
+    margin:0px !important;
+}
+
+.ibm-p{
+    padding: 0 !important;
+}
+
+.text-middle{
+    vertical-align: middle;
+}
+
+
+ */
+
+.subscribe-two {
+    padding: 0px 75px 0px 75px;
+}
+.section-title h2 {
+    font-size: 35px;
+}
+.subscribe-wrapper h2 {
+    font-size: 30px;
+    padding: 0 20%;
+    line-height: 45px;
+}
+
+@media screen and (max-width: 768px) {
+    .subscribe-wrapper h2 {
+        font-size: 30px;
+        padding: 0 0;
+        line-height: 45px;
+    }
+}
+
+@media screen and (min-width: 393px) and (max-width: 768px) {
+    .search__area {
+        background: none !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sl-btn-1 {
+        width: 48% !important;
+    }
+    .sl-btn-2 {
+        width: 23% !important;
+    }
+}
+
+.slider-btn {
+    padding: 18px 6px !important;
+    margin: 2px !important;
+}
+
+.single-item .single-box {
+    height: 370px;
+}
+
+.p-justify {
+    text-align: justify;
+}
+
+.img-blog {
+    width: 100% !important;
+    height: 300px !important;
+}
+
+.text-list li::before {
+    background-color: #f1592a !important;
+}
+
+.sub_btn {
+    background-color: #f1592a !important;
+}
+
+.theme-color {
+    color: #f1592a !important;
+}
+
+.theme-text-hover:hover {
+    color: #f1592a !important;
+}
+
+.theme-bg {
+    background-color: #f1592a !important;
+}
+
+.theme-border {
+    border: 1px solid #f1592a;
+}
+
+.ibm-list-group-item.active {
+    background-color: #f1592a !important;
+    border-color: #f1592a !important;
+}
+
+.f-37 {
+    font-size: 37px !important;
+}
+
+.what-box__icon::before {
+    left: 5px !important;
+    bottom: 34px !important;
+}
+
+.btn-radius {
+    border-radius: 50px !important;
+}
+
+.sign-up-btn {
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.btn-default {
+    color: #f1592a !important;
+    vertical-align: middle !important;
+}
+
+.ibm-m-0 {
+    margin: 0px !important;
+}
+
+.ibm-p {
+    padding: 0 !important;
+}
+
+.text-middle {
+    vertical-align: middle;
+}

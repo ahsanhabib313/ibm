@@ -1,0 +1,323 @@
+  <section
+    class="about-us-area pt-150 pb-120 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
+  >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <!-- <img class="img-fluid" :src="image_url+'/frontend/assets/img/course/img4.jpg'" alt=""> -->
+          <img
+            :src="image_url + '/uploads/course/' + course.thumbnail"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-md-6">
+          <h2>
+            ELICOS General English
+            <span style="color: #f1592a"
+              >Elementary to Upper Intermediate CRICOS Code: 0101439</span
+            >
+          </h2>
+          <p class="mb-30 mt-10 p-justify">
+            ELICOS General English course is aimed to provide core English
+            language skills for all students to have the necessary skills to
+            communicate effectively and confidently with a diverse range of
+            people on a variety of topics frequently encountered in every day.
+          </p>
+        </div>
+        <div class="col-md-12">
+          <p class="mb-30 mt-30 p-justify">
+            <strong>Course Description :</strong> The General English course
+            gives students a firm grounding in the vocabulary, pronunciation and
+            grammar of English. These areas of proficiency are combined and
+            integrated with the four macro skills of speaking, listening,
+            reading and writing. These areas of proficiency form the basis of
+            the learner aims, objectives and outcomes for the course.
+          </p>
+          <p class="mb-30 mt-10 p-justify">
+            During the course, students will be expected to participate as much
+            as possible, and work individually, in pairs and in groups as well
+            as take part in whole class activities
+          </p>
+          <p class="mb-30 mt-10 p-justify">
+            <strong>Course Duration :</strong> The course length is 40 weeks.
+            Each week there are a minimum of 20 face-to-face contact hours.
+            Students who struggle to master the content at any level can choose
+            to repeat the level a maximum of once.
+          </p>
+
+          <p class="mb-30 mt-10 p-justify">
+            Students can enter the course every Monday of the year, on a rolling
+            intake basis. The course is available 50 weeks of the year. The
+            minimum course enrolment is 5 Weeks.
+          </p>
+
+          <p class="mb-30 mt-10 p-justify">
+            <strong>Delivery Location :</strong> The course will be delivered at
+            581 Plenty Road, Preston, VIC, 3072.
+          </p>
+
+          <p class="mb-10 mt-10"><strong>Fees:</strong></p>
+          <p>Tuition Fees: $200/week</p>
+          <p>Application fees: $250</p>
+          <p>Material Fees: $10 per week (Maximum $250)</p>
+
+          <p class="mb-30 mt-10 p-justify">
+            <strong>Targeted clients :</strong> All international students with
+            non-English speaking background or English is not their first
+            language and wish to improve their English language skills, come
+            from a range of ages, but all are older than 18.
+          </p>
+
+          <p class="mb-30 mt-10 p-justify">
+            Students enter at different levels depending on their proficiency
+            across the four macro skills when they enrol. They are not native
+            speakers of English but have a desire to learn the language.
+            Students come from a range of countries (initially from Asia, South
+            America, Brazil, Europe and Middle East) and, as a result, may have
+            variations in their approach to class, expected classroom norms and
+            learner beliefs.
+          </p>
+
+          <p class="mb-10 mt-10 p-justify">
+            Students have the desire to participate in classes that not only
+            develop their language skills, but are also enjoyable. Student’s
+            motivation for learning includes:
+          </p>
+          <p class="mb-2 mt-1 p-justify">
+            <i class="fa fa-check"></i> Student visa holders that want to
+            improve their English for further study in Australia
+          </p>
+
+          <p class="mb-2 mt-1 p-justify">
+            <i class="fa fa-check"></i> Tourist visa holders that want to
+            improve their travel experience
+          </p>
+
+          <p class="mb-2 mt-1 p-justify">
+            <i class="fa fa-check"></i> Working Holiday visa holders that want
+            to study English but also do part time work. Often the students
+            study English first to get their language skills up to working
+            level.
+          </p>
+
+          <p class="mb-10 mt-20 p-justify">
+            <strong>Entry requirements:</strong>
+          </p>
+          <p>
+            Students must be over 18 years of age at the time of course
+            commencement. Students must secure an appropriate visa that allows
+            them to study in an Australian Registered Training Organisation
+            prior to course commencement.
+          </p>
+
+          <p class="mb-10 mt-20">
+            <strong>Academic entry requirement:</strong>
+          </p>
+          <p class="p-justify">
+            To gain entry to this course, students must have successfully
+            completed year 10 or secondary studies in their home country
+            equivalent to an Australian Year 10. (Subject to the country
+            Assessment Level) and course.
+          </p>
+
+          <p class="mb-10 mt-20">
+            <strong>English Language entry requirement:</strong>
+          </p>
+          <p class="p-justify">
+            General English is a programme of study designed for international
+            students with a beginner level of general English. All students take
+            an institute’s placement test of grammar & reading, writing and
+            speaking test. These tests and scales form the basis of the
+            Placement Tests. Because the courses can accommodate students with
+            only a very low grasp of English, Institute of Business and
+            Management (Victoria) is able to accept students into the Elementary
+            course even if they are at a very low level.
+          </p>
+
+          <h2 class="mt-40 mb-30 text-center">
+            LEARNER <strong class="theme-color">NEEDS</strong>
+          </h2>
+
+          <p class="mt-10 mb-10 p-justify">
+            Learner needs are assessed at enrolment as per Institute of Business
+            and Management (Victoria)’s student support policy and procedure.
+            Students complete the enrolment form and submit supporting
+            documentation to enable Institute of Business and Management
+            (Victoria) to assess whether the course is appropriate for their
+            abilities and learner needs.
+          </p>
+
+          <p class="mt-10 mb-10 p-justify">
+            Students who have learning needs that cannot be accommodated by
+            Institute of Business and Management (Victoria) and/or do not
+            satisfy the entry requirements will be provided guidance to access
+            an external service/organisation where they can develop the required
+            level of skills/support. On achieving the required level of
+            knowledge and skills they can then re-apply for the course.
+          </p>
+
+          <p class="mt-10 mb-10 p-justify">
+            Institute of Business and Management (Victoria) takes all feasible
+            and reasonable steps to assist students during the course, to help
+            them in complete the course within the course schedule.
+          </p>
+        </div>
+        <div class="col-md-4 p-100">
+          <div class="text-center">
+            <img
+              :src="image_url + '/frontend/assets/img/course/diploma1.jpg'"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <p class="mt-4 mb-10"><strong>Pre-Enrolment Information</strong></p>
+          <p class="p-justify">
+            Institute of Business and Management (Victoria) provides information
+            to student’s pre-enrolment on course demands and expectations via
+            the Student Handbook and course information available on the
+            Institute of Business and Management (Victoria)’s website. This
+            information also identifies the process for assessing learner needs
+            during enrolment and post enrolment.
+          </p>
+        </div>
+        <div class="col-md-4 p-100">
+          <div class="text-center">
+            <img
+              :src="image_url + '/frontend/assets/img/course/diploma2.jpg'"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <p class="mt-4 mb-10"><strong>Orientation</strong></p>
+          <p class="p-justify">
+            Institute of Business and Management (Victoria) delivers an
+            orientation to students outlining course requirements, facilities,
+            policies, safety, staff, support services and general information
+            prior to course commencement.
+          </p>
+        </div>
+        <div class="col-md-4 p-100">
+          <div class="text-center">
+            <img
+              :src="image_url + '/frontend/assets/img/course/diploma3.jpg'"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <p class="mt-4 mb-10">
+            <strong>Monitoring Attendance</strong>
+          </p>
+          <p class="p-justify">
+            Institute of Business and Management (Victoria) monitors student
+            attendance and provides assistance if the student is experiencing
+            difficulties and not progressing through their course as per the
+            course schedule. Institute of Business and Management (Victoria)
+            employs a range of support services where appropriate and feasible
+            to support students learning needs during course delivery. Institute
+            of Business and Management (Victoria) may refer students to external
+            sources if they are unable to sufficiently provide support for
+            students learning needs.
+          </p>
+        </div>
+        <div class="col-md-4 p-100">
+          <div class="text-center">
+            <img
+              :src="image_url + '/frontend/assets/img/course/diploma4.jpg'"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <p class="mt-4 mb-10">
+            <strong>Academic Support</strong>
+          </p>
+          <p class="p-justify">
+            For many of the students, their previous educational experience was
+            in a much more teacher-centred. The students expect the teacher to
+            guide their learning as the teacher would do in their native
+            systems. Given these considerations, there will need to be
+            identification of needs to evaluate the gap between the student’s
+            current ability and the demands of academic performance,
+            particularly in assessment, but also in class participation. The
+            students will all be encouraged to become active learners, equipping
+            them with the skills to succeed in English speaking academic life.
+            Students who are experiencing difficulties with any aspect of their
+            course are encouraged to speak with their teacher or any other
+            member of staff.
+          </p>
+        </div>
+        <div class="col-md-4 p-100">
+          <div class="text-center">
+            <img
+              :src="image_url + '/frontend/assets/img/course/diploma5.jpg'"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <p class="mt-4 mb-10">
+            <strong>Welfare Support</strong>
+          </p>
+          <p class="p-justify">
+            Institute of Business and Management (Victoria) have student support
+            service in place as we understand that our students require extra
+            support to adjust in the new environment and cope with their study.
+            Sometimes there can be personal issues that impact their successful
+            course completion. Students who are experiencing personal/ welfare
+            issues that are impacting their studies are encouraged to contact
+            their trainer or any other member of staff.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="mt-40 mb-30 text-center">
+            LEARNER <strong class="theme-color">NEEDS</strong>
+          </h2>
+          <div class="text-center">
+            <img
+              class="img-fluid"
+              :src="image_url + '/frontend/assets/img/course/diploma-table.png'"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-md-12 mt-100">
+          <h3 class="mt-10 mb-10">ASSESSMENT</h3>
+          <h4 class="mt-10 mb-10">Formative Assessment</h4>
+          <p class="mt-10 mb-10 p-justify">
+            <strong><i class="fa fa-check theme-color"></i></strong> Each week
+            students complete a Unit Progress Test covering Listening,
+            Vocabulary, Grammar and Reading. Student will be given mark for
+            their speaking marking criteria on different level.
+          </p>
+
+          <p class="mt-10 mb-10 p-justify">
+            <strong><i class="fa fa-check theme-color"></i></strong> Each week
+            of the course students complete a formative writing assessment over
+            on hour of varying word lengths depending on the level. The
+            instructions for the teacher are in the Teacher’s book Students are
+            marked according to the Formative Writing Marking Criteria which
+            awards a score of A, B or C. The exceptions are in weeks 5 and 10
+            when students take a summative writing task.
+          </p>
+
+          <h4>Summative Assessment Schedule</h4>
+          <p class="mt-10 mb-10 p-justify">
+            <strong><i class="fa fa-check theme-color"></i></strong> Mid-Course
+            and End of Course Tests In weeks 5 and 10 of each level, students
+            take a Mid-Course or End of Course Test. The tests cover Speaking,
+            Listening, Reading and Writing. The tests are completed over 2
+            hours.
+          </p>
+
+          <p class="mt-10 mb-10 p-justify">
+            <strong><i class="fa fa-check theme-color"></i></strong> For the
+            speaking, teachers use a separate room to give students a 5-minute
+            speaking test one by one. Speaking and Writing are both marked
+            according to the Summative Speaking and Writing Marking scales.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
